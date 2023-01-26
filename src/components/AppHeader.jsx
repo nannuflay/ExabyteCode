@@ -29,9 +29,9 @@ export default function AppHeader() {
           <div className=" flex items-center space-x-12">
             <div className="">
               <Link href="/">
-                <span className=" text-lg font-semibold flex items-center">
-                  <FiCode className=" w-6 h-6 text-red-400 mr-1" />
-                  Exa-Byte
+                <span className=" text-2xl font-medium flex items-center">
+                  <FiCode className=" w-7 h-7 text-red-400 mr-1 mt-1" />
+                  ExaByte
                 </span>
               </Link>
             </div>
