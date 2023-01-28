@@ -10,10 +10,15 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        primary: "#EF6632",
+        secondary: "#ecc94b",
+        // ...
+      },
       fontFamily: {
         inconsolata: ["Inconsolata", "monospace"],
       },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };
