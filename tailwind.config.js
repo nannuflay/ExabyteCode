@@ -16,7 +16,8 @@ module.exports = {
         // ...
       },
       fontFamily: {
-        inconsolata: ["Inconsolata", "monospace"],
+        inter: ["Inter", "sans-serif"],
+        paprika: ["paprika", "cursive"],
       },
     },
   },
