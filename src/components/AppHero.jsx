@@ -11,28 +11,21 @@ function AppHero() {
     "logoRunecast.svg",
   ];
   return (
-    <div className=" w-full min-h-[60vh] flex justify-center relative flex-wrap ">
-      <div className="relative w-full">
+    <div className="relative  w-full min-h-[60vh] md:max-w-6xl mx-auto flex justify-center p-4 flex-wrap ">
+      <div className="w-full">
         <Image
           src={"hero.svg"}
           height="400"
           width={600}
           alt="hero"
-          className="opacity-10 absolute top-[220px] left-64 select-none hidden md:flex"
-        />
-        <Image
-          src={"hero-dev.svg"}
-          height="300"
-          width={300}
-          alt="hero"
-          className="opacity-10 absolute top-[390px] right-[300px] hidden md:flex"
+          className=" hi absolute top-[220px] -left-20 select-none hidden lg:flex"
         />
       </div>
-      <div className=" md:text-center flex flex-col space-y-10 items-center  w-full md:max-w-5xl p-4 md:px-10 mt-10">
-        <span className=" text-[49px] md:text-[70px] font-black text-slate-900 tracking-[-5px] leading-snug">
+      <div className=" md:text-center flex flex-col space-y-10 items-center  w-full md:w-4/5 mt-10">
+        <span className=" text-[49px] md:text-[70px] font-black text-slate-900  leading-snug">
           Build & ship your next digital product.
         </span>
-        <div className="mockup-code bg-slate-900 text-start w-3/5 mx-auto ">
+        <div className="mockup-code hidden sm:block bg-slate-900 text-start w mx-auto select-none ">
           <pre data-prefix=">" className="text-white">
             <code>Finding great software developers is hard.</code>
           </pre>
@@ -49,15 +42,24 @@ function AppHero() {
             </code>
           </pre>
         </div>
+        <div className="flex sm:hidden leading-9 text-slate-600 text-lg">
+          <p>
+            {" "}
+            Finding great software developers is hard. Creating great software
+            development teams is even harder. Our already established team can
+            help you build and ship digital products from the ground up.{" "}
+          </p>
+        </div>
         <button className="btn bg-slate-900  hover:bg-slate-900 rounded-full text-white text-sm font-bold capitalize">
           Estimate project
         </button>
       </div>
-      <div className=" w-full flex  flex-col text-center space-y-10 mt-20 select-none md:max-w-7xl p-4">
-        <p className=" text-black tracking-wide text-lg">
+      <div className="flex flex-col  space-y-10 mt-20 select-none">
+        <p className=" text-slate-600 md:text-center tracking-wide text-lg">
           Trusted by multiple companies from all around the world
         </p>
-        <div className="flex justify-between place-items-center  ">
+
+        <div className="flex items-center  justify-between  flex-wrap  ">
           {companies.map((logo) => (
             <Image
               key={logo}
@@ -65,7 +67,7 @@ function AppHero() {
               width={130}
               height={20}
               alt="sss"
-              className="  opacity-50 hover:scale-105 hover:opacity-100 transform duration-200 ease-out cursor-pointer "
+              className="opacity-50 mr-8 mb-8 hover:scale-105 hover:opacity-100 transform duration-200 ease-out cursor-pointer "
             />
           ))}
         </div>
