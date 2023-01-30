@@ -40,10 +40,10 @@ export default function AppHeader() {
               </span>
             </Link>
           </div>
-          <div className=" hidden  md:flex items-center md:space-x-2 lg:space-x-6 select-none mt-1">
+          <div className=" hidden  md:flex items-center md:space-x-2 lg:space-x-4 select-none mt-1">
             {Links.map((link) => (
               <div key={link.title}>
-                <div className=" text-slate-500/80  hover:bg-primary/10 sm:text-sm lg:text-base transition duration-150 ease-in-out hover:text-slate-700 py-1 px-2 rounded-lg ">
+                <div className=" text-gray-400  hover:bg-primary/10 sm:text-[15px] font-medium  transition duration-150 ease-in-out hover:text-slate-700 p-2 rounded-lg ">
                   {!link.hasChild ? (
                     <Link href={link.to}> {link.title}</Link>
                   ) : (
