@@ -22,7 +22,7 @@ function AppHero() {
         />
       </div>
       <div className=" md:text-center flex flex-col space-y-10 items-center  w-full md:w-4/5 mt-10">
-        <span className=" text-[49px] md:text-[70px] font-black text-slate-900  leading-snug">
+        <span className=" text-[43px] md:text-[70px] font-black text-slate-900  leading-snug">
           Build & ship your next digital product.
         </span>
         <div className="mockup-code hidden sm:block bg-slate-900 text-start w mx-auto select-none ">
@@ -54,12 +54,12 @@ function AppHero() {
           Estimate project
         </button>
       </div>
-      <div className="flex flex-col  space-y-10 mt-20 select-none">
+      <div className="flex flex-col w-full  space-y-10 mt-20 select-none">
         <p className=" text-slate-600 md:text-center tracking-wide text-lg">
           Trusted by multiple companies from all around the world
         </p>
 
-        <div className="flex items-center  justify-between  flex-wrap  ">
+        <div className="flex items-center w-full  justify-between  flex-wrap  ">
           {companies.map((logo) => (
             <Image
               key={logo}

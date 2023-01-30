@@ -4,7 +4,7 @@ import AppHeader from "./AppHeader";
 
 export default function Layout({ children, title }) {
   return (
-    <div className="md:max-w-6xl w-full mx-auto  p-4">
+    <div className=" w-full mx-auto">
       <Head>
         <title>{title} - Arch23 IT consulting & services</title>
       </Head>
