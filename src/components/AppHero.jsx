@@ -67,7 +67,7 @@ function AppHero() {
               width={130}
               height={20}
               alt="sss"
-              className="opacity-50 mr-8 mb-8 hover:scale-105 hover:opacity-100 transform duration-200 ease-out cursor-pointer "
+              className="opacity-50 mr-4 mb-8 hover:scale-105 hover:opacity-100 transform duration-200 ease-out cursor-pointer "
             />
           ))}
         </div>
