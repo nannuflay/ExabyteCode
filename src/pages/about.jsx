@@ -10,10 +10,10 @@ export default function about() {
         <h1 className="text-[44px] md:text-[70px] font-black text-slate-900  leading-snug text-start md:text-center ">
           Meet Our Team
         </h1>
-        <p className=" text-start md:text-center leading-9 text-[19px] text-slate-500">
+        <p className="text-start md:text-center leading-9 text-[19px] text-slate-500">
           When we started in 2021, we were just 2 dedicated developers with a
-          lot of passion for coding. Our attitude hasn't changed—but since then,
-          we’ve grown to be a team of 15+ team members, 50+ projects, capable to
+          lot of passion for coding. Our attitude hasn`t changed—but since then,
+          we`ve grown to be a team of 15+ team members, 50+ projects, capable to
           handle all sorts of technical and non-technical challenges. From the
           first concept to the production-ready release.
         </p>
