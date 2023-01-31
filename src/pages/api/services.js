@@ -4,28 +4,35 @@ export const services = [
   {
     id: 0,
     icon: FaCode,
-    title: "Wev Developement",
+    title: "Web Developement",
     description:
       "Vue.js is an approachable, performant, and versatile framework for building web user interfaces.",
   },
   {
     id: 1,
     icon: FaCode,
-    title: "Wev Developement",
+    title: "SaaS product development",
     description:
       "Vue.js is an approachable, performant, and versatile framework for building web user interfaces.",
   },
   {
     id: 2,
     icon: FaCode,
-    title: "Wev Developement",
+    title: "MVP Development",
     description:
       "Vue.js is an approachable, performant, and versatile framework for building web user interfaces.",
   },
   {
     id: 3,
     icon: FaCode,
-    title: "Wev Developement",
+    title: "Mobile Developement",
+    description:
+      "Vue.js is an approachable, performant, and versatile framework for building web user interfaces.",
+  },
+  {
+    id: 4,
+    icon: FaCode,
+    title: "Automation",
     description:
       "Vue.js is an approachable, performant, and versatile framework for building web user interfaces.",
   },
