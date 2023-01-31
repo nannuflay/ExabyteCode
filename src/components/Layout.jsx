@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import AppHeader from "./AppHeader";
+import AppFooter from "./AppFooter";
 
 export default function Layout({ children, title }) {
   return (
@@ -12,6 +13,7 @@ export default function Layout({ children, title }) {
       <main>
         <AppHeader />
         {children}
+        <AppFooter />
       </main>
     </div>
   );
