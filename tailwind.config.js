@@ -17,7 +17,7 @@ module.exports = {
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],
-        paprika: ["paprika", "cursive"],
+        lobster: ["Lobster Two", "cursive"],
       },
     },
   },

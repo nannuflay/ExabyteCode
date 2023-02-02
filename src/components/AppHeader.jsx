@@ -1,10 +1,13 @@
 import React, { useState } from "react";
 import Link from "next/link";
-import { FiCode, FiChevronDown, FiMenu, FiX } from "react-icons/fi";
+import { FiChevronDown, FiMenu, FiX } from "react-icons/fi";
+import { BsBezier2 } from "react-icons/bs";
+
 import { HiOutlineFire } from "react-icons/hi";
 import { services } from "@/pages/api/services.js";
 import ServiceItem from "./ServiceItem";
 import useSticky from "@/hooks/useSticky";
+import Router from "next/router";
 
 export default function AppHeader() {
   const [menu, setMenu] = useState(false);
@@ -32,6 +35,9 @@ export default function AppHeader() {
     { title: "Careers", to: "#" },
   ];
 
+  function navigateToEstimateProject() {
+    Router.push("/estimate-project");
+  }
   return (
     <>
       <div
@@ -46,7 +52,8 @@ export default function AppHeader() {
           <div className=" flex items-center space-x-12">
             <div className="">
               <Link href="/">
-                <span className=" text-xl text-slate-900 font-medium flex items-center font-paprika tracking-tighter">
+                <span className=" text-xl text-slate-900 italic font-lobster flex items-center  select-none">
+                  <BsBezier2 className="   w-6 h-6 text-primary rotate-45" />
                   Arch23
                 </span>
               </Link>
@@ -89,6 +96,7 @@ export default function AppHeader() {
           </div>
           <div className=" flex items-center space-x-3">
             <button
+              onClick={navigateToEstimateProject}
               className="  w-54 md:w-auto
                btn btn-outline text-slate-600 hover:bg-slate-900 hover:text-white rounded-full hover:border-slate-900 btn-sm h-10 text-sm font-bold capitalize"
             >
