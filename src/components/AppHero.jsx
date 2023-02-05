@@ -13,13 +13,13 @@ function AppHero() {
   return (
     <div className="relative  w-full min-h-[60vh] md:max-w-6xl mx-auto flex justify-center p-4 flex-wrap ">
       <div className="w-full">
-        <Image
+        {/* <Image
           src={"hero.svg"}
           height="400"
           width={600}
           alt="hero"
           className=" hi absolute top-[220px] -left-20 select-none hidden lg:flex"
-        />
+        /> */}
       </div>
       <div className=" md:text-center flex flex-col space-y-10 items-center  w-full md:w-4/5 mt-10">
         <span className=" text-[43px] md:text-[70px] font-black text-slate-900  leading-snug">
