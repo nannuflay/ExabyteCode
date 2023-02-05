@@ -12,7 +12,7 @@ export default function Layout({ children, title }) {
 
       <main>
         <AppHeader />
-        {children}
+        <div className=" min-h-screen">{children}</div>
         <AppFooter />
       </main>
     </div>

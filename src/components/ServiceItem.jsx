@@ -24,7 +24,7 @@ function ServiceItem({ Icon, title, description }) {
         />
       </div>
       <div className=" w-5/6">
-        <h1 className=" text-lg font-bold text-slate-800">{title}</h1>
+        <h1 className=" text-lg f text-slate-800">{title}</h1>
         <p className=" text-gray-400  text-sm">{description}</p>
       </div>
     </div>
