@@ -1,7 +1,6 @@
 import { services } from "@/pages/api/services";
 import React from "react";
 import {
-  FaGit,
   FaGithub,
   FaInstagram,
   FaLinkedin,
